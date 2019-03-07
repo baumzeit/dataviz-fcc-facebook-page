@@ -1,0 +1,43 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background: darkgray;
+}
+
+.header {
+    background: palevioletred;
+    padding: 20px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#dataviz {
+    background: #f1f1f1;
+    background: darkgray;
+    width: min-content;
+    padding: 20px;
+    overflow: auto;
+}
+
+.bar {
+    fill: white;
+}
+
+.bar.selected {
+    fill: red;
+}
+
+.bar-box {
+    fill: transparent;;
+}
+
+.placeholder {
+    height: 400px;
+    width: 400px;
+    background: magenta;
+    border: 1px solid black;
+}
