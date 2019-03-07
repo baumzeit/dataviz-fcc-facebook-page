@@ -13,13 +13,24 @@
 <script type="text/javascript" src="d3script.js"></script>
 
 <body>
-    <div class="header">
-        <h1>fCC Facebook Page Data</h1>
-    </div>
-    <div class="content">
+    <header class="header">
+        <h1 id="title">freeCodeCamp Facebook Page Data (Oct 2016 - Aug 2017)</h1>
+    </header>
+    <main class="content">
         <div id="dataviz"></div>
         <div id="controls"></div>
-        <div id="message-box"></div>
-    </div>    
+        <div class="message-box">
+            <p id="message-date"></p>
+            <p id="message"></p>
+        </div>
+    </main>    
+    <footer class="footer">
+        <p class="footer-text">Source:
+            <a href="https://github.com/freeCodeCamp/open-data/tree/master/facebook-fCC-data" target="_blank" rel="noreferrer noopnener">fcc open data</a>
+        </p>
+        <p class="footer-text">created by Philip Hradecsni (
+            <a href="https://portfolio-baumzeit.netlify.com/" target="_blank" rel="noreferrer noopnener">baumzeit</a>
+        )</p>
+    </footer>
 </body>
 </html>
