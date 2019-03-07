@@ -23,12 +23,15 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    min-width: 880px;
 }
 
 #dataviz {
     background: #f1f1f1;
     background: darkgray;
     width: min-content;
+    width: -moz-min-content;
+    width: -webkit-min-content;
     padding: 30px 40px 10px 40px;
     box-shadow: 0 0 13px -3px rgba(0,0,0,0.5);
 }
