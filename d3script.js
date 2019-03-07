@@ -1,6 +1,6 @@
 window.onload = () => {
 
-    d3.csv('../data/freeCodeCamp-facebook-page-activity.csv')
+    d3.csv('./data/freeCodeCamp-facebook-page-activity.csv')
         .then(data => {
             delete data.columns;
             data.splice(386, 1); // outlier
