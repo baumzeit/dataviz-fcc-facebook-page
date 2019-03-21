@@ -17,12 +17,9 @@ window.onload = () => {
         });
 
     function visualizeData(data) {
-        console.log(data);
 
         xScale = d3.scaleOrdinal().domain()
 
-
-        
         const w = 840;
         const h = 240;
 
